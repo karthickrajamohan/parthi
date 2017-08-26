@@ -1,0 +1,170 @@
+body{
+  padding:0px;
+  margin:0px;
+  position: absolute;
+  color:grey;
+  font-family: 'Open Sans', sans-serif;
+  background: #95a5a6;
+  width: 100%;
+}
+nav {
+  position: fixed;
+  width: 100%;
+  font-weight: bold;
+  background-color: #32313F;
+  color:#fff;
+}
+.left-side {
+  float: left;
+  padding: 20px;
+  color: grey;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.right-side {
+  float: right;
+  padding-right: 10px;
+}
+
+.right-side li {
+  display: inline-block;
+  padding: 20px;
+  text-transform: uppercase;
+  color: grey;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+    background: #584042;
+    border: none;
+    color: #fff;
+}
+input#checkMe {
+    text-align: left;
+    width: 13px;
+    padding: 28px;
+    border: 2px solid;
+}
+label {
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+#password{
+    margin-bottom: 5px
+}
+a.fp {
+    color: #837477;
+    font-size: 13px;
+    margin-bottom: 18px;
+    display: inline-block;
+}
+h3 {
+    color: #000;
+}
+.right-side li a {
+  color: grey;
+  text-decoration: none
+}
+.container {
+    margin: 0 auto;
+    margin-top: 58px;
+    min-height: 500px;
+    width: 100%;
+}
+.main {
+    
+}
+.left{
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    display: table-cell;
+}
+.right{
+width: 30%;
+    display: table-cell;
+    padding: 90px 30px 0 40px;
+    box-sizing: border-box;
+    background: #fff;
+}
+input{
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    width: 100%;
+    border: 1px solid #CED1D6;
+}
+.right p{
+  padding:0px;
+  margin: 0px;
+}
+.button{
+  width: 200px;
+      border-radius: 50px;
+      height: 50px;
+      position: absolute;
+      padding: 0px;
+      z-index: 99;
+      background-color: orange;
+            margin-top: 50px;
+}
+.buttonright{
+  width: 200px;
+  border-radius: 50px;
+  height: 50px;
+  position: absolute;
+  padding: 0px;
+  z-index: 99;
+  margin-top: 60px;
+  margin-left: 300px;
+}
+.button p{
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  padding:13px;
+}
+.bar{
+  visibility: hidden;
+}
+
+@media (max-width: 900px)
+{
+  .right {
+      width: 80%;
+}
+.button {
+    width: 150px;
+}
+.buttonright{
+      margin-left: 210px;
+}
+}
+@media (max-width: 570px)
+{
+  .right-side{
+    display:none;
+  }
+  .bar{
+    visibility: visible;
+  float: right;
+  margin-right: 27px;
+  font-size: 25px;
+  margin-top: 10px;
+  }
+}
+.inptM:focus {
+  box-shadow: 0 0 25px 5px #84faff;
+}
+footer{
+  display:block; 
+  clear:both;
+  background:#000;
+}
